@@ -12,7 +12,7 @@ public class TaskItem
 
     public Priority Priority { get; set; }
 
-    public TaskStatus Status { get; set; }
+    public TaskItemStatus Status { get; set; }
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
