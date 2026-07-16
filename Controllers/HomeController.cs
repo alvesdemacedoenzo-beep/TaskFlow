@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TaskFlow.Models;
+using TaskFlow.ViewModels;
 
 namespace TaskFlow.Controllers;
 
@@ -8,7 +9,13 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        return View();
+        var model = new HomeViewModel
+        {
+            Title = "TaskFlow",
+            Subtitle = "Organize sua rotina de maneira inteligente."
+        };
+
+        return View(model);
     }
 
     public IActionResult Privacy()

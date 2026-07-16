@@ -8,3 +8,9 @@ obj/
 # User files
 *.user
 *.suo
+
+.vs/
+bin/
+obj/
+*.user
+*.tmp

@@ -2,6 +2,43 @@ html {
   font-size: 14px;
 }
 
+:root {
+    --primary: #7C3AED;
+    --primary-dark: #5B21B6;
+    --secondary: #A78BFA;
+    --background: #F8FAFC;
+    --surface: #FFFFFF;
+    --text: #1F2937;
+    --text-light: #6B7280;
+    --success: #22C55E;
+}
+
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+    .hero h1 {
+        font-weight: 700;
+    }
+
+    .hero p {
+        color: #6b7280;
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+    }
+
+.btn-primary {
+    background: #7C3AED;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background: #6D28D9;
+    }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
